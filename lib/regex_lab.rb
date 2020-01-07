@@ -24,5 +24,5 @@ end
 def valid_phone_number?(phone)
   phone.match?(/^[0-9] {10}\w/)
 # binding.pry 
-
+# expect(valid_numbers.all? { |number| valid_phone_number?(number) }).to be(false)
 end
